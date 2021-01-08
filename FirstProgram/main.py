@@ -1,10 +1,12 @@
 
 
-def do_math(num1, num2):
-    return num1 + num2
+check = "Hamburger"
 
-
-math1 = do_math(5, 7)
-math2 = do_math(11, 34)
-
-print("First sum is", math1, "and the second sum is", math2)
+if check == False:
+    print("It is false")
+elif check == "Hamburger":
+    print("Yum, hamburgers")
+elif check == "Yo":
+    print("Hello")
+else:
+    print("It is actually equal to True")
